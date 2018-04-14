@@ -1,4 +1,17 @@
 <div id="inSlider" class="carousel carousel-fade" data-ride="carousel">
+    <script>
+        $('tagline').typed({
+            strings: [
+                "a game developer.", "a software developer.", "a programmer.", "a chess player.", "an open-source enthusiast.", "a coffee-lover.", "a carnatic vocalist.", "a grammar nazi.", "a fan of TV series'."
+            ],
+            showCursor: true,
+            typeSpeed: 50,
+            backSpeed: 50,
+            backDelay: 50,
+            frontDelay: 1000,
+            loop: true
+        });
+    </script>
     <ol class="carousel-indicators">
         {% for b in site.data.index.banners %} {% if b.idx %}
         <li data-target="#inSlider" data-slide-to="{{ b.idx }}"></li>
@@ -34,7 +47,7 @@
                             <h1>I'm Anuranjan</h1>
 
                             <p class="intro-position">
-                                <span>Senior Undergraduate</span>
+                                <span class="tagline"></span>
                                 <span>VIT Vellore</span>
                             </p>
                             <!-- <a class="button stroke smoothscroll" href="#about" title="">More About Me</a> -->

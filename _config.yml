@@ -13,7 +13,7 @@ img_path: /anu-cool-007.github.io/static/assets/img/blog  # url should be '/home
 author:  # change following line to your infomation.
   name: Anuranjan  # Be used at blog posts' author.
   first_name: Anuranjan  # Be used at index page about me section.
-  last_name: Srivastava  # Be used at index page about me section.
+  last_name:   # Be used at index page about me section.
   avatar: /static/assets/img/landing/me.jpg  # upload your avatar at directory and edit it.
   github_username: Anu-cool-007  # Leave blank if you don't have now
   linkedin_id: anuranjan-srivastava-270a8b124 # Leave blank if you don't have now

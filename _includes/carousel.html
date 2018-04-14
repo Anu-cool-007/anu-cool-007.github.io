@@ -1,17 +1,5 @@
 <div id="inSlider" class="carousel carousel-fade" data-ride="carousel">
-    <script>
-        $('intro-position h1').typed({
-            strings: [
-                "a game developer.", "a software developer.", "a programmer.", "a chess player.", "an open-source enthusiast.", "a coffee-lover.", "a carnatic vocalist.", "a grammar nazi.", "a fan of TV series'."
-            ],
-            showCursor: true,
-            typeSpeed: 50,
-            backSpeed: 50,
-            backDelay: 50,
-            frontDelay: 1000,
-            loop: true
-        });
-    </script>
+
     <ol class="carousel-indicators">
         {% for b in site.data.index.banners %} {% if b.idx %}
         <li data-target="#inSlider" data-slide-to="{{ b.idx }}"></li>
@@ -45,8 +33,23 @@
                             <!-- <img class="img-responsive" src="{{ '/static/assets/img/landingme.jpg' | prepend: site.baseurl }}" alt="" style="height: 240px; width:240px; border-radius: 120px;"> -->
                             <h5>Hello, World.</h5>
                             <h1>I'm Anuranjan</h1>
-
-                            <p id="tagline">Hello
+                            <script type="text/javascript">
+                                $(function () {
+                                    $('.write').typed({
+                                        strings: [
+                                            "a game developer.", "a software developer.", "a programmer.", "a chess player.", "an open-source enthusiast.", "a coffee-lover.", "a carnatic vocalist.", "a grammar nazi.", "a fan of TV series'."
+                                        ],
+                                        showCursor: true,
+                                        typeSpeed: 50,
+                                        backSpeed: 50,
+                                        backDelay: 50,
+                                        frontDelay: 1000,
+                                        loop: true
+                                    });
+                                });
+                            </script>
+                            <p class="intro-position">
+                                <span class="write"></span>
                             </p>
                             <!-- <a class="button stroke smoothscroll" href="#about" title="">More About Me</a> -->
                         </div>
@@ -82,10 +85,23 @@
                             <!-- <img class="img-responsive" src="{{ '/static/assets/img/landing/me.jpg' | prepend: site.baseurl }}" alt="" style="height: 240px; width:240px; border-radius: 120px;"> -->
                             <h5>Hello, World.</h5>
                             <h1>I'm Anuranjan</h1>
-
+                            <script type="text/javascript">
+                                $(function () {
+                                    $('.write').typed({
+                                        strings: [
+                                            "a game developer.", "a software developer.", "a programmer.", "a chess player.", "an open-source enthusiast.", "a coffee-lover.", "a carnatic vocalist.", "a grammar nazi.", "a fan of TV series'."
+                                        ],
+                                        showCursor: true,
+                                        typeSpeed: 50,
+                                        backSpeed: 50,
+                                        backDelay: 50,
+                                        frontDelay: 1000,
+                                        loop: true
+                                    });
+                                });
+                            </script>
                             <p class="intro-position">
-                                <span>Senior Undergraduate</span>
-                                <span>VIT Vellore</span>
+                                <span class="write"></span>
                             </p>
                             <!-- <a class="button stroke smoothscroll" href="#about" title="">More About Me</a> -->
                         </div>

@@ -1,12 +1,10 @@
 <div id="inSlider" class="carousel carousel-fade" data-ride="carousel">
     <ol class="carousel-indicators">
-        {% for b in site.data.index.banners %}
-        {% if b.idx %}
+        {% for b in site.data.index.banners %} {% if b.idx %}
         <li data-target="#inSlider" data-slide-to="{{ b.idx }}"></li>
         {% else %}
         <li data-target="#inSlider" data-slide-to="0" class="active"></li>
-        {% endif %}
-        {% endfor %}
+        {% endif %} {% endfor %}
     </ol>
     <div class="carousel-inner" role="listbox">
 
@@ -19,33 +17,31 @@
                 </div>
             </div>
             <!-- Set background for slide in css -->
-            <div
-            class="header-back"
-            style="background: url({{ '/static/assets/img/' | prepend: site.baseurl }}{{ site.data.index.banners[0].src }});
+            <div class="header-back" style="background: url({{ '/static/assets/img/' | prepend: site.baseurl }}{{ site.data.index.banners[0].src }});
             background-repeat:  no-repeat;
             -webkit-background-size: cover;
           	-moz-background-size: cover;
           	background-size: cover;
           	background-attachment: fixed;
-            background-position: 50% 0;"
-            title="{{ site.data.index.banners[0].title }}">
+            background-position: 50% 0;" title="{{ site.data.index.banners[0].title }}">
 
-            <div class="intro-overlay"></div>
-            <div class="intro-content">
-       		    <div class="row">
-       			    <div class="col-twelve">
-    				      <!-- <img class="img-responsive" src="{{ '/static/assets/img/landingme.jpg' | prepend: site.baseurl }}" alt="" style="height: 240px; width:240px; border-radius: 120px;"> -->
-    	   			    <h5>Hello, World.</h5>
-    	   			    <h1>I'm Vaibhav Nagar</h1>
+                <div class="intro-overlay"></div>
+                <div class="intro-content">
+                    <div class="row">
+                        <div class="col-twelve">
+                            <!-- <img class="img-responsive" src="{{ '/static/assets/img/landingme.jpg' | prepend: site.baseurl }}" alt="" style="height: 240px; width:240px; border-radius: 120px;"> -->
+                            <h5>Hello, World.</h5>
+                            <h1>I'm Anuranjan Srivastava</h1>
 
-    	   			    <p class="intro-position">
-    	   				  <span>Senior Undergraduate</span>
-    	   				  <span>CSE-IIT Kanpur</span>
-    	   			    </p>
-    	   			<!-- <a class="button stroke smoothscroll" href="#about" title="">More About Me</a> -->
-    	   		    </div>
-       		    </div>
-       	    </div> <!-- /intro-content -->
+                            <p class="intro-position">
+                                <span>Senior Undergraduate</span>
+                                <span>VIT Vellore</span>
+                            </p>
+                            <!-- <a class="button stroke smoothscroll" href="#about" title="">More About Me</a> -->
+                        </div>
+                    </div>
+                </div>
+                <!-- /intro-content -->
 
             </div>
         </div>
@@ -60,35 +56,33 @@
                 </div>
             </div>
             <!-- Set background for slide in css -->
-            <div
-            class="header-back"
-            style="background: url({{ "/static/assets/img/"  | prepend: site.baseurl }}{{ banner.src }});
+            <div class="header-back" style="background: url({{ " /static/assets/img/ "  | prepend: site.baseurl }}{{ banner.src }});
             background-repeat:  no-repeat;
             -webkit-background-size: cover;
           	-moz-background-size: cover;
           	background-size: cover;
           	background-attachment: fixed;
-            background-position: 50% 0;"
-            title="{{ banner.title }}">
+            background-position: 50% 0;" title="{{ banner.title }}">
 
-            <div class="intro-overlay"></div>
-            <div class="intro-content">
-       		    <div class="row">
-       			    <div class="col-twelve">
-                  <!-- <img class="img-responsive" src="{{ '/static/assets/img/landing/me.jpg' | prepend: site.baseurl }}" alt="" style="height: 240px; width:240px; border-radius: 120px;"> -->
-    	   			    <h5>Hello, World.</h5>
-    	   			    <h1>I'm Vaibhav Nagar</h1>
+                <div class="intro-overlay"></div>
+                <div class="intro-content">
+                    <div class="row">
+                        <div class="col-twelve">
+                            <!-- <img class="img-responsive" src="{{ '/static/assets/img/landing/me.jpg' | prepend: site.baseurl }}" alt="" style="height: 240px; width:240px; border-radius: 120px;"> -->
+                            <h5>Hello, World.</h5>
+                            <h1>I'm Anuranjan Srivastava</h1>
 
-    	   			    <p class="intro-position">
-    	   				  <span>Senior Undergraduate</span>
-    	   				  <span>CSE-IIT Kanpur</span>
-    	   			    </p>
-    	   			<!-- <a class="button stroke smoothscroll" href="#about" title="">More About Me</a> -->
-    	   		    </div>
-       		    </div>
-       	    </div> <!-- /intro-content -->
+                            <p class="intro-position">
+                                <span>Senior Undergraduate</span>
+                                <span>VIT Vellore</span>
+                            </p>
+                            <!-- <a class="button stroke smoothscroll" href="#about" title="">More About Me</a> -->
+                        </div>
+                    </div>
+                </div>
+                <!-- /intro-content -->
 
-          </div>
+            </div>
         </div>
         {% endfor %}
 

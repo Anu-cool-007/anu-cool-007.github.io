@@ -1,15 +1,15 @@
 # links section data
 - type: Location
-  desc: F-317, Hall-9, IIT Kanpur
-  goto: https://goo.gl/maps/qt8WUf9Hg6y
+  desc: VIT, Vellore
+  goto: https://goo.gl/maps/ESWRb9HxztC2
   icon: fa-map-marker
 
 - type: Email Me At
-  desc: vaibhavn@iitk.ac.in
-  goto: mailto:vaibhavn@iitk.ac.in
+  desc: anuranjan.mail@gmail.com
+  goto: mailto:anuranjan.mail@gmail.com
   icon: fa-envelope
 
 - type: Call Me At
-  desc: (+91) 7843850644
-  goto: tel:07843850644
+  desc: (+91) 9585396679
+  goto: tel:09585396679
   icon: fa-mobile

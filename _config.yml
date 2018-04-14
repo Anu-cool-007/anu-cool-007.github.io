@@ -1,26 +1,26 @@
 # Welcome to Jekyll!
 
 # Website settings
-title: Vaibhav
-description: Vaibhav's personal website,use Jekyll and github pages.
-keywords: Vaibhav,Jekyll,github,gh-pages
-baseurl:  /vaibhavn # if you have suburl as homepage like '/homepage', please change it to '/homepage' and your repo's name should be 'homepage'
-url: https://vaibhavnaagar.github.io/vaibhavn  # url should be 'http://<github_username>.github.io/homepage' as before
+title: Anuranjan
+description: Anuranjan's personal website,use Jekyll and github pages.
+keywords: Anuranjan,Jekyll,github,gh-pages
+baseurl:  /anu-cool-007 # if you have suburl as homepage like '/homepage', please change it to '/homepage' and your repo's name should be 'homepage'
+url: https://anu-cool-007.github.io/  # url should be 'http://<github_username>.github.io/homepage' as before
 # url: http://127.0.0.1:4000
-img_path: /vaibhavn/static/assets/img/blog  # url should be '/homepage/static/assets/img/blog' as before
+img_path: /anu-cool-007.github.io/static/assets/img/blog  # url should be '/homepage/static/assets/img/blog' as before
 
 # author -- index page "about me" section
 author:  # change following line to your infomation.
-  name: Vaibhav  # Be used at blog posts' author.
-  first_name: Vaibhav  # Be used at index page about me section.
-  last_name: Nagar  # Be used at index page about me section.
+  name: Anuranjan  # Be used at blog posts' author.
+  first_name: Anuranjan  # Be used at index page about me section.
+  last_name: Srivastava  # Be used at index page about me section.
   avatar: /static/assets/img/landing/me.jpg  # upload your avatar at directory and edit it.
-  github_username: vaibhavnaagar  # Leave blank if you don't have now
-  linkedin_id: vaibhav-nagar-81a0b4b8 # Leave blank if you don't have now
-  facebook_username: vaibhav.naagar4  # Leave blank if you don't have now
-  twitter_username: vaibhavnaagar77  # Leave blank if you don't have now
-  email: naagarvaibhav19@gmail.com  # Leave blank if you don't have now
-  cv: /static/assets/pdf/Vaibhav_Nagar_resume.pdf  # An online CV can be printed as PDF, leave blank if you don't have now
+  github_username: Anu-cool-007  # Leave blank if you don't have now
+  linkedin_id: anuranjan-srivastava-270a8b124 # Leave blank if you don't have now
+  facebook_username: devslayer007  # Leave blank if you don't have now
+  twitter_username: Anu_cool_007  # Leave blank if you don't have now
+  email: anuranjan.mail@gmail.com  # Leave blank if you don't have now
+  cv: /static/assets/pdf/resume.pdf  # An online CV can be printed as PDF, leave blank if you don't have now
   # skill icons are on avatar's left and right side. Reference urls are http://fontawesome.io/ and http://fizzed.com/oss/font-mfizz
   skill_icon1:
     - name: icon-html5
@@ -36,7 +36,7 @@ author:  # change following line to your infomation.
 
 # comment
 disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.
-  name: vaibhav
+  name: anuranjan
 
 # analytics
 ## google analytics

@@ -1,0 +1,16 @@
+# carousel banners section
+# Add items for each banner image in the carousel
+#
+# Images are expected to be located in `static/assets/img/`.
+# No index for first image (active)
+- src: landing/header_one.jpg
+  idx:
+  title:
+
+- src: landing/header_two.jpg
+  idx: 1
+  title:
+
+- src: landing/header_three.jpg
+  idx: 2
+  title:

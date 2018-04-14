@@ -1,0 +1,124 @@
+# projects section data
+# If you don't have language feature(language.yml is empty), ignore "i18n" items
+# Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
+- name: Domain Adaptation using GAN
+  i18n: jalpc
+  gh_user: vaibhavnaagar
+  repo: pixelDA_GAN
+  img: /static/assets/img/projects/pixeldagan.jpg
+  desc: Unsupervised pixel-level domain adaptation with GAN in which the idea is to train the generator to produce target domain data conditioned on source domain data and train classifier on generated data without using the target domain labels
+  tag: Computer Vision
+  report: /static/assets/pdf/report/pixeldagan.pdf
+
+- name: Active Transfer Learning
+  i18n: cpython
+  gh_user: vaibhavnaagar
+  repo: active_transfer_learning
+  img: /static/assets/img/projects/atl.jpg
+  desc: Active learning with cross-class similarity transfer which uses similarity propagation method on class-class and sample-sample similarity graph based random walk for information propagation and uncertainty sampling for expert labeling
+  tag: Probabilistic Machine Learning
+  report: /static/assets/pdf/report/atl.pdf
+
+- name: Securing Zoobar Web-Application
+  i18n: cpython
+  gh_user: vaibhavnaagar
+  repo: computer_security
+  img: /static/assets/img/projects/sec.jpg
+  desc: Exploited vulnerabilities in zoobar web application using buffer overflow, code injection, return-to-libc attack and browser-based attacks like cross-site request forgery, XSS scripting, phishing, profile worm and password theft
+  report:
+
+- name: C++ Compiler
+  i18n: cpython
+  gh_user: vaibhavnaagar
+  repo: cpp_compiler
+  img: /static/assets/img/projects/cpp.jpg
+  desc: An end-to-end compiler for C++, written in Python, which generates code in MIPS and supports various features- native data types, variables and expressions, control structures, conditionals, loops, arrays, functions, recursion, pointers
+  report: /static/assets/pdf/report/cpp.pdf
+
+- name: Research Catalogue
+  i18n: cpython
+  gh_user: vaibhavnaagar
+  repo: Research_Catalog
+  img: /static/assets/img/projects/dbms.jpg
+  desc: A web application using MySQL database, stored as InnoDB storage engine, to create an easily maintainable and flexible bibliographic database of research papers with optimized SQL queries by creating indexes based on its plan tree
+  report: /static/assets/pdf/report/catalog.pdf
+
+- name: NachOS
+  i18n: cpython
+  gh_user: vaibhavnaagar
+  repo: project-Nachos
+  img: /static/assets/img/projects/nachos2.jpg
+  desc: Extended the NachOS (Not Another Completely Heuristic Operating System) to perform basic system calls such as Fork, Join, Exec, Sleep and Exit and implemented various scheduling algorithms, shared memory and demand paging algorithms
+  report:
+
+- name: Internet Router
+  i18n: cpython
+  gh_user: vaibhavnaagar
+  repo: internet-router
+  img: /static/assets/img/projects/router.jpg
+  desc: Extended a simple Internet Router which can handle ARP requests and replies, ICMP echo requests, TCP/UDP packets sent to one of its interfaces and maintains ARP cache with proper error handling
+  report: /static/assets/pdf/report/router.pdf
+
+- name: STCP Transport Layer
+  i18n: cpython
+  gh_user: vaibhavnaagar
+  repo: stcp-transport_layer
+  img: /static/assets/img/projects/stcp.jpg
+  desc: Extended STCP (Simple TCP) transport layer which provides a connection-oriented, in-order, full duplex end-to-end delivery mechanism with proper three way handshake, sliding windows and sequence number handling
+  report: /static/assets/pdf/report/stcp.pdf
+
+- name: HTTP Proxy Server
+  i18n: cpython
+  gh_user: vaibhavnaagar
+  repo: proxy-server
+  img: /static/assets/img/projects/proxy.jpg
+  desc: A concurrent HTTP proxy server which supports the GET method to serve clients requests and then connects to requested host and responds with host data with appropriate Status-code and Response-Phrase values in response to errors
+  report: /static/assets/pdf/report/proxy.pdf
+
+- name: HTTP Server
+  i18n: cpython
+  gh_user: vaibhavnaagar
+  repo: http-server
+  img: /static/assets/img/projects/http.jpg
+  desc: A concurrent HTTP server which supports the GET method to retrieve files from it and replies with a hyperlinked directory listing if a directory is the requested resource and makes persistent connections with clients upto certain extent
+  report: /static/assets/pdf/report/http.pdf
+
+- name: LeNet-5 CNN (numpy)
+  i18n: cpython
+  gh_user: vaibhavnaagar
+  repo: cnn
+  img: /static/assets/img/projects/cnn.jpg
+  desc: Project aimed at implementing LeNet-5 convolutional neural network from SCRATCH using Numpy only which includes implementation of forward and backward algorithms of CNN, Pooling and FC layers and various gradient based optimizers
+  report: /static/assets/pdf/report/cnn.pdf
+
+- name: Panorama
+  i18n: cpython
+  gh_user: vaibhavnaagar
+  repo: panorama
+  img: /static/assets/img/projects/pan.jpg
+  desc: Implementation of a method of stitching images to create Panorama in which Ransac algorithm is used to maximize the number of inliers and DLT (Direct Linear Transform) to compute Homography and interest points are located using SIFT
+  report: /static/assets/pdf/report/pano.pdf
+
+- name: Real Time Poll Application
+  i18n: cpython
+  gh_user: vaibhavnaagar
+  repo: realTime-pollApp
+  img: /static/assets/img/projects/poll.jpg
+  desc: A web-application which provides an interface for conducting polls and quizzes and displaying the results in real time by establishing persistent connection between the server and clients using websockets and asyncio
+  report: /static/assets/pdf/report/poll.pdf
+
+- name: Customizable Multi Layer Perceptron (octave)
+  i18n: cpython
+  gh_user: vaibhavnaagar
+  repo: mlp
+  img: /static/assets/img/projects/mlp.jpg
+  desc: Implementation of customizable multi layer perceptron in Octave with forward and backward training algorithms, activations, gradient based optimizers and gradient checking
+  report:
+
+- name: The Game of Cops and Robbers on Graphs
+  i18n: google
+  url: /static/assets/pdf/report/cop-robber.pdf
+  repo:
+  img: /static/assets/img/projects/rob.jpg
+  desc: Theoretical project aimed at studying theorems related to upper and lower bounds on the cop numbers required to capture the robber after finite number of rounds on different graphs and about the retraction and dismantlable graphs
+  report: /static/assets/pdf/report/cop-robber.pdf

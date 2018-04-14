@@ -1,0 +1,15 @@
+# links section data
+- type: Location
+  desc: F-317, Hall-9, IIT Kanpur
+  goto: https://goo.gl/maps/qt8WUf9Hg6y
+  icon: fa-map-marker
+
+- type: Email Me At
+  desc: vaibhavn@iitk.ac.in
+  goto: mailto:vaibhavn@iitk.ac.in
+  icon: fa-envelope
+
+- type: Call Me At
+  desc: (+91) 7843850644
+  goto: tel:07843850644
+  icon: fa-mobile

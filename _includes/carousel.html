@@ -78,13 +78,6 @@
             transition: opacity .25s;
         }
     </style>
-    <ol class="carousel-indicators">
-        {% for b in site.data.index.banners %} {% if b.idx %}
-        <li data-target="#inSlider" data-slide-to="{{ b.idx }}"></li>
-        {% else %}
-        <li data-target="#inSlider" data-slide-to="0" class="active"></li>
-        {% endif %} {% endfor %}
-    </ol>
     <div class="carousel-inner" role="listbox">
 
         <div class="item active">
@@ -140,12 +133,4 @@
         </div>
 
     </div>
-    <a class="left carousel-control" href="#inSlider" role="button" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#inSlider" role="button" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-    </a>
 </div>

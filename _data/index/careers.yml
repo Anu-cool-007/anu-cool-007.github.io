@@ -20,7 +20,7 @@
     i18n: company_b
   desc:
     detail: Microsoft, India
-    logo: /static/assets/img/experience/msp.png
+    logo: /static/assets/img/experience/msp.jpg
     i18n: company_b_desc
   date:
     detail: Aug, 2017 - Present
@@ -29,3 +29,48 @@
     detail: 
     i18n: company_b_job
   icon: fa-microsoft
+
+- name:
+    detail: ACM Chapter
+    i18n: company_b
+  desc:
+    detail: VIT Vellore, India
+    logo: /static/assets/img/experience/acm.png
+    i18n: company_b_desc
+  date:
+    detail: Jan, 2017 - Dec, 2017
+    i18n: company_b_date
+  job:
+    detail: Academic Member
+    i18n: company_b_job
+  icon: fa-address-card
+
+  - name:
+    detail: Helphen (NGO)
+    i18n: company_b
+  desc:
+    detail: VIT Vellore, India
+    logo: /static/assets/img/experience/helphen.png
+    i18n: company_b_desc
+  date:
+    detail: Sept, 2016 - Mar, 2018
+    i18n: company_b_date
+  job:
+    detail: Member
+    i18n: company_b_job
+  icon: fa-hands-helping
+
+  - name:
+    detail: CSI Chapter
+    i18n: company_b
+  desc:
+    detail: VIT Vellore, India
+    logo: /static/assets/img/experience/csi.png
+    i18n: company_b_desc
+  date:
+    detail: Aug, 2015 - Aug, 2016
+    i18n: company_b_date
+  job:
+    detail: Member
+    i18n: company_b_job
+  icon: fa-address-card

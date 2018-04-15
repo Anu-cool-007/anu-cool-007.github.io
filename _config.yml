@@ -24,12 +24,12 @@ author:  # change following line to your infomation.
   # skill icons are on avatar's left and right side. Reference urls are http://fontawesome.io/ and http://fizzed.com/oss/font-mfizz
   skill_icon1:
     - name: icon-java
-    - name: icon-unity
+    - name: icon-csharp
     - name: icon-python
     - name: fa-linux
   skill_icon2:
     - name: icon-git
-    - name: icon-cplusplus
+    - name: icon-unity
     - name: icon-shell
     - name: icon-azure
   desc: I'm a Senior Undergradute student in the Computer Science department at Indian Institute of Technology, Kanpur. I am broadly interested in Networking, Machine Learning and Computer Vision. I am passionate about coding and learning new things in life which are mostly related to computer science, physics and universe. Apart from academic pursuits, in free time I like to watch anime and videos from vsauce and some other science channels. Other than that I like to play Badminton, chess, cricket and love to swim.

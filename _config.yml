@@ -32,7 +32,7 @@ author:  # change following line to your infomation.
     - name: icon-unity
     - name: icon-shell
     - name: icon-azure
-  desc: I'm a Senior Undergradute student in the Computer Science department at Indian Institute of Technology, Kanpur. I am broadly interested in Networking, Machine Learning and Computer Vision. I am passionate about coding and learning new things in life which are mostly related to computer science, physics and universe. Apart from academic pursuits, in free time I like to watch anime and videos from vsauce and some other science channels. Other than that I like to play Badminton, chess, cricket and love to swim.
+  desc: I am a 3rd Year Computer Science Student from VIT Vellore. I am broadly interested in Networking, Machine Learning and Artificial Intelligence. I am passionate about coding and learning new things in life which are mostly related to computer science, physics and universe. Other than that I like to play Badminton, chess, cricket and love to swim.
 
 # comment
 disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.

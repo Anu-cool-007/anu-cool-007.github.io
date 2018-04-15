@@ -13,7 +13,7 @@
   job:
     detail: Founder
     i18n: company_a_job
-  icon: fa-microsoft
+  icon: fa-windows
 
 - name:
     detail: Microsoft Student Partner
@@ -28,7 +28,7 @@
   job:
     detail: 
     i18n: company_b_job
-  icon: fa-microsoft
+  icon: fa-windows
 
 - name:
     detail: ACM Chapter
@@ -43,7 +43,7 @@
   job:
     detail: Academic Member
     i18n: company_b_job
-  icon: fa-address-card
+  icon: fa-id-card
 
 - name:
     detail: Helphen (NGO)
@@ -58,7 +58,7 @@
   job:
     detail: Member
     i18n: company_b_job
-  icon: fa-hands-helping
+  icon: fa-users
 
 - name:
     detail: CSI Chapter
@@ -73,4 +73,4 @@
   job:
     detail: Member
     i18n: company_b_job
-  icon: fa-address-card
+  icon: fa-id-card

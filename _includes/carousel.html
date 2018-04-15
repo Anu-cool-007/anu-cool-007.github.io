@@ -1,6 +1,83 @@
 <div id="inSlider" class="carousel carousel-fade" data-ride="carousel">
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script type="text/javascript" src="https://cdn.bootcss.com/typed.js/1.1.4/typed.min.js"></script>
+    <style>
+        .typed-cursor {
+            opacity: 1;
+            font-weight: 100;
+            -webkit-animation: blink 0.7s infinite;
+            -moz-animation: blink 0.7s infinite;
+            -ms-animation: blink 0.7s infinite;
+            -o-animation: blink 0.7s infinite;
+            animation: blink 0.7s infinite;
+        }
+
+        @-keyframes blink {
+            0% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+        @-webkit-keyframes blink {
+            0% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+        @-moz-keyframes blink {
+            0% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+        @-ms-keyframes blink {
+            0% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+        @-o-keyframes blink {
+            0% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+        .typed-fade-out {
+            opacity: 0;
+            animation: 0;
+            transition: opacity .25s;
+        }
+    </style>
     <ol class="carousel-indicators">
         {% for b in site.data.index.banners %} {% if b.idx %}
         <li data-target="#inSlider" data-slide-to="{{ b.idx }}"></li>
@@ -39,7 +116,7 @@
                                     showCursor: true,
                                     typeSpeed: 50,
                                     backSpeed: 50,
-                                    backDelay: 50,
+                                    backDelay: 500,
                                     frontDelay: 1000,
                                     loop: true
                                 });
@@ -96,7 +173,7 @@
                                         showCursor: true,
                                         typeSpeed: 50,
                                         backSpeed: 50,
-                                        backDelay: 50,
+                                        backDelay: 500,
                                         frontDelay: 1000,
                                         loop: true
                                     });

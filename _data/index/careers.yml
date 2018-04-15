@@ -45,7 +45,7 @@
     i18n: company_b_job
   icon: fa-address-card
 
-  - name:
+- name:
     detail: Helphen (NGO)
     i18n: company_b
   desc:
@@ -60,7 +60,7 @@
     i18n: company_b_job
   icon: fa-hands-helping
 
-  - name:
+- name:
     detail: CSI Chapter
     i18n: company_b
   desc:

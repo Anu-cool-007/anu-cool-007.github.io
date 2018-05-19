@@ -1,5 +1,2 @@
----
-title: robots
----
-User-agent: *
-Sitemap: <{{site.url}}/sitemap.xml>
+User-Agent: * 
+Disallow: /static/assets/pdf/report

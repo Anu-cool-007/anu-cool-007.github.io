@@ -1,13 +1,17 @@
 # Welcome to Jekyll!
 
 # Website settings
-title: Anuranjan
-description: Anuranjan's personal website,use Jekyll and github pages.
-keywords: Anuranjan,Jekyll,github,gh-pages
+title: Anuranjan Srivastava
+description: Anuranjan's portfolio website
+keywords: Anuranjan, Anuranjan Srivastava, Anu_cool_007, anu-cool-007, Portfolio
 baseurl:  / # if you have suburl as homepage like '/homepage', please change it to '/homepage' and your repo's name should be 'homepage'
 url: https://anu-cool-007.github.io/  # url should be 'http://<github_username>.github.io/homepage' as before
 # url: http://127.0.0.1:4000
 img_path: /anu-cool-007.github.io/static/assets/img/blog  # url should be '/homepage/static/assets/img/blog' as before
+
+#SEO
+plugins:
+  - jekyll-seo-tag
 
 # author -- index page "about me" section
 author:  # change following line to your infomation.

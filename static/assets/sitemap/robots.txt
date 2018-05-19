@@ -1,0 +1,4 @@
+User-Agent: * 
+Disallow: /static/assets/pdf/report
+Sitemap: /static/assets/sitemap/sitemap.xml
+
